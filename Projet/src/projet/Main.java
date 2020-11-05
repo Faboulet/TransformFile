@@ -3,7 +3,7 @@ package projet;
 public class Main {
 
 	public static void main(String[] args) {
-		/**Méthode d'entrée prenant les paramètres suivants
+		/** Méthode d'entrée prenant les paramètres suivants
 		 * ◦ Chemin du fichier texte
 		 * ◦ Format de sortie (XLM/JSON)
 		 * ◦ Chemin du fichier en sortie
