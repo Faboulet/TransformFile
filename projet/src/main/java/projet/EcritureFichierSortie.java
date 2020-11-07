@@ -58,6 +58,12 @@ public class EcritureFichierSortie {
 		this.fichierSortie = fichierSortie;
 	}
 	
+	/**
+	 * Méthode ecrireFichierXML
+	 * Permettant d'écrire les éléments dans un fichier XML
+	 * @param listeInfos liste des éléments à écrire
+	 */
+	
 	public void ecrireFichierXML(List<LigneInfos> listeInfos) {
 		if (logger.isDebugEnabled()) {
 	        logger.debug("ecrireFichierXML() est exécutée !");
@@ -173,6 +179,12 @@ public class EcritureFichierSortie {
 		logger.info("Le fichier XML " + this.getFichierSortie() + " a été créé");
 	}
 	
+	/**
+	 * Méthode ecrireFichierJSON
+	 * Permettant d'écrire les éléments dans un fichier JSON
+	 * @param listeInfos liste des éléments à écrire
+	 */
+	
 	public void ecrireFichierJSON(List<LigneInfos> listeInfos) {
 		if (logger.isDebugEnabled()) {
 	        logger.debug("ecrireFichierJSON() est exécutée !");
@@ -223,6 +235,12 @@ public class EcritureFichierSortie {
         
         logger.info("Le fichier JSON " + this.getFichierSortie() + " a été créé");
 	}
+	
+	/**
+	 * Méthode ecrireFichier
+	 * Permettant d'écrire les éléments dans un fichier
+	 * @param listeInfos liste des éléments à écrire
+	 */
 	
 	public void ecrireFichier(List<LigneInfos> listeInfos) {
 		if (logger.isDebugEnabled()) {
